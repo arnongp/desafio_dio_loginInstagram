@@ -1,0 +1,56 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  display: flex;
+  max-width: 900px;
+  max-height: 500px;
+  margin: 150px auto;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  margin: 10px;
+}
+
+.login {
+  margin: 30px 25px;
+  border: 1px solid rgb(145, 134, 134);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: rgb(245, 245, 245);
+  height: 350px;
+  width: 350px;
+}
+.fotoLogoInsta img {
+  width: 180px;
+}
+.fotoProfile img {
+  height: 100px;
+  border-radius: 50%;
+}
+.continue a {
+  text-decoration: none;
+  background-color: rgba(29, 148, 245, 0.877);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+.blue {
+  text-decoration: none;
+  color: rgba(29, 148, 245, 0.877);
+}
+.baixeApp {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.baixeApp img {
+  width: 150px;
+  height: 50px;
+}
